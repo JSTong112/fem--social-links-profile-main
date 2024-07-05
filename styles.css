@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root{
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 20%);
+    --darkgrey: hsl(0, 0%, 12%);
+    --offblack: hsl(0, 0%, 8%);
+    --green: hsl(75, 94%, 57%);
+}
+
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+}
+
+body{
+    background-color: var(--offblack);
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: var(--darkgrey);
+    max-width: 375px;
+    width: 100%;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+img.icon{
+    height: 110px;
+    margin: 1.2em;
+}
+
+.name{
+    color: var(--white);
+    font-size: 1.6em;
+}
+
+.address{
+    color: var(--green);
+    padding-top:0.5em;
+}
+
+.description{
+    color: var(--white);
+    font-size: 0.8em;
+    padding: 1.8em;
+}
+
+.linkage{
+    width: 80%;
+}
+
+button.links{
+    background-color: var(--grey);
+    border-radius: 10px;
+    font-family: Inter;
+    color: var(--white);
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+button.links:hover{
+    background-color: var(--green);
+    color: var(--offblack);
+    cursor: pointer;    
+    caret-color: var(--offblack);
+}
+
+.icon{
+    border-radius: 50%
+}
+
+.linkage{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.attribution{
+    margin-top: 0.5em;
+    color: var(--white);
+}
